@@ -1,0 +1,6 @@
+# tests/data/orders.yaml
+cases:
+  - order_id: 1001
+    expect_amount: 99.5
+  - order_id: 1002
+    expect_amount: 20.0

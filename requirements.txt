@@ -1,0 +1,19 @@
+# 接口 + Web UI 自动化测试依赖 (Python 3.11)
+pytest
+pytest-html
+pytest-rerunfailures
+pytest-xdist
+requests
+httpx
+PyYAML
+python-dotenv
+jsonschema
+Faker
+openpyxl
+fastapi
+uvicorn
+selenium
+webdriver-manager
+playwright
+pytest-playwright
+allure-pytest
