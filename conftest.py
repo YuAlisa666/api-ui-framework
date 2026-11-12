@@ -21,6 +21,7 @@ def base_url(env):
             "test":  "http://127.0.0.1:8001"}[env]
 
 @pytest.fixture(scope="session")
+#本函数用于获取 token，根据基础 URL 发送登录请求并返回 token
 def token(base_url):
     r = ApiClient(base_url).post("/login",
                                  json={"user": "tester", "pwd": "123456"})
